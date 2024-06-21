@@ -4,19 +4,6 @@
       "candid": "src/http_sample_backend/http_sample_backend.did",
       "package": "http_sample_backend",
       "type": "rust"
-    },
-    "http_sample_frontend": {
-      "dependencies": [
-        "http_sample_backend"
-      ],
-      "frontend": {
-        "entrypoint": "src/http_sample_frontend/src/index.html"
-      },
-      "source": [
-        "src/http_sample_frontend/assets",
-        "dist/http_sample_frontend/"
-      ],
-      "type": "assets"
     }
   },
   "defaults": {
